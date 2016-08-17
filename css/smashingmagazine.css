@@ -1,0 +1,326 @@
+
+#body
+{
+	line-height: 1.46;
+	color: #333;
+	margin-left: 10px;
+	background-image:url(https://media-mediatemple.netdna-ssl.com/wp-content/themes/smashing-magazine/assets/images/smbg.png);
+	font-family: "Proxima Nova Regular","Segoe UI",Roboto,"Droid Sans","Helvetica Neue",Arial,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+   
+}
+ul
+{
+	list-style: none;
+}
+
+nav
+{
+	display:inline-block;
+	height: 74px;
+	vertical-align: baseline;
+	position: relative;
+
+}
+.logo
+{
+	width:29%;
+	height: 100%;
+	background: #fff;
+	
+}
+.logo a   /*check again*/
+{
+	
+}
+.logo a img
+{
+	position: absolute;
+    top: 27%;
+    left: 1.5%;
+    width: 11.5%;
+ }
+ .navitems
+ {
+ 	position: absolute;
+ 	top: 0;
+ 	height: 22%;
+
+ }
+ .navitems a
+ {
+ 	
+ 	position: absolute;
+    top: 54%;
+    left: 22%;
+ }
+
+.contentmenu
+{
+	width: 50%;
+	height: 100%;
+}
+.contentmenu li
+{
+	height:100%;
+	display: inline-block;
+	border:1px solid rgba(0,0,0,.05);
+	border-right: .08em solid rgba(0,0,0,.05);
+
+
+}
+.navitems:hover
+{
+	background-color: #FFFF66;
+}
+a
+{
+	text-decoration: none;
+	color: rgba(0,0,0,.3);
+	padding:2%;
+}
+#menubooks
+{
+	position: absolute;
+	left: 14.5%;
+    width: 5.6%;
+}
+#menuebooks
+{
+	position: absolute;
+	left:20.3%;
+	width: 6.5%;
+	background-image: url(https://www.smashingmagazine.com/wp-content/themes/smashing-magazine/assets/images/cody.svg);
+	background-repeat: no-repeat;
+	background-position: right 15%;
+	background-size: 42%;
+}
+#tickets
+{
+	position: absolute;
+	width: 6.5%;
+    left: 27%;
+}
+#shops
+{
+	position: absolute;
+	left: 33.5%;
+    width: 5%;
+
+}
+#jobs
+{
+	position: absolute;
+	width: 5%;
+    left: 38.5%;
+}
+/*#menubooks,#tickets,#menuebooks,#jobs,#shops
+{
+	//height: 23%;
+}*/
+/*.socialmedia li a
+{
+	text-indent: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 1.4375em;
+    height: 1.4375em;
+    background-image: url(https://media-mediatemple.netdna-ssl.com/wp-content/themes/smashing-magazine/assets/images/channels.svg);
+    background-size: 353% 600%;
+    opacity: .45;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+	background-image: url(https://media-mediatemple.netdna-ssl.com/wp-content/themes/smashing-magazine/assets/images/channels.svg);
+}*/
+main
+{
+	display: block;
+}
+
+.fullcontent
+{
+	margin-right: 1.4%;
+	margin-top: 0.1%;
+	position: relative;
+
+}
+.exceptaside
+{
+	display: inline-block;
+	width: 65.5%;;
+	margin-right: 33%;
+	background-color: #fff;
+	border-radius: 0 0.625em 0.625em 0;
+	box-shadow: 0 0 .625em .08em rgba(0,0,0,.05);
+
+
+	position: relative;
+}
+.left
+{
+	position: absolute;
+	left: 0%;
+
+}
+.marginfix
+{
+	padding-top: 3.5%;
+}
+
+.sn
+{
+	width: 22%;
+	margin-top: 4%;
+}
+.sn ul
+{
+	padding-right: 2.5%;
+}
+
+.colorbar
+{
+	margin-bottom: 1%;
+}
+.category1
+{
+	border-left:0.625em solid #C9E9E5;
+}
+.category1:hover
+{
+	border-left-color: #63BFB2;
+}
+.category2
+{
+	border-left:0.625em solid #CDEEAA;
+}
+.category2:hover
+{
+	border-left-color: #6ECE0A;
+}
+.category3
+{
+	border-left:0.625em solid #F9F0A8;
+}
+.category3:hover
+{
+	border-left-color: #EBD203;
+}
+.category4
+{
+	border-left:0.625em solid #E0CFDF;
+}
+.category4:hover
+{
+	border-left-color: #A675A2;
+}
+.category5
+{
+	border-left:0.625em solid #FACED2;
+}
+.category5:hover
+{
+	border-left-color: #F0717C;
+}
+.category6
+{
+	border-left:0.625em solid #BCD8F0;
+}
+.category6:hover
+{
+	border-left-color: #3E8DD2;
+}
+/*.sn li:hover a
+{
+	border-bottom: .08em solid rgba(0,0,0,.1);
+}*/
+.category-menu li
+{
+	    padding-bottom: 2.25em;
+}
+
+.submenu li:hover , .category-menu li a:hover
+{
+	background-color: #FFFF66;
+}
+.category-menu li a
+{
+
+	    padding: 0.25em .5em .25em 25%;
+	    color: #333;
+	    font-weight: 700;
+	    font-family: 'Proxima Nova';
+	        letter-spacing: .175em;
+}
+.submenu
+{
+	padding-top: 6%;
+}
+.submenu li
+{
+	    padding-bottom: 6%;
+
+}
+.submenu li a
+{
+	 color: #777;
+	font-family: 'Proxima Nova Regular';
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+}
+.main
+{
+	width: 78%;
+	/*position: absolute;
+	left: 22%;*/
+	margin-top: 3.8%;
+	margin-left: 22%;
+}
+.article-post
+{
+	padding-left: 5.5%;
+	padding-right: 5.5%;
+}
+/*.aside
+{
+    display: block;
+
+
+}*/
+.search
+{
+	margin-bottom: 12%;
+}
+.inputform
+{
+	width: 78%;
+}
+
+.col-sm-3
+{
+	  /*position: relative;*/
+    width: 56%;
+    /*float: right;*/
+    /*margin-right: 2%;*/
+    position: absolute;
+    top: 0%;
+    right: 2%;
+}
+.common
+{
+	margin: 0% 0 7% 0%;
+    
+    position: relative;
+    width: 100%;
+    padding: 0 1.25em 2em;
+    border: 0.08em solid rgba(0,0,0,.1);
+    border-left: 0;
+    background: rgba(255,255,255,.55);
+    border-radius: 0 .625em .625em 0;
+}
+.footer
+{
+	/*margin-top: 350%;*/
+}
+
